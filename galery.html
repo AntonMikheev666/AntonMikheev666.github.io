@@ -1,33 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="rosie-riveter.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="rosie-riveter.ico" type="image/x-icon">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/galeryStyles.css">
+		<link rel="stylesheet" href="styles/styles.css">
+
+		<script type="text/javascript" src="galeryScript.js"></script>
+
 		<title>!!!ГАлереЯ!!!</title>
-		<style type="text/css">
-			*, html, body{
-				margin: 0;
-				padding: 0;
-			}
-			.menuButton{
-				margin: 3px;
-				background: black;
-				color: white;
-				border: 2px;
-				size: 
-			}
-			.header{
-				position: fixed;
-				top: 0;
-				height: 5ex;
-				width: 100%;
-				color: white;
-				background: grey;
-			}
-			.content{
-				margin-top: 5ex;
-				margin-bottom: 0;
-				height: 100%;
-			}
-		</style>
 	</head>
 	<body>
 		<div>
@@ -36,11 +20,11 @@
 				<a class="menuButton" href="galery.html">Galery</a>
 			</div>
 			<div class="content">
-				<img src="imgs/BzHo-TAZRow.jpg">
-				<img src="imgs/_Plyeh8UHtU.jpg">
-				<img src="imgs/rosie-riveter.jpg">
-				<img src="imgs/Screenshot.png">
-				<img src="imgs/x4290d20150211002512.jpg">
+				<img class="thumbnail" src="imgs/BzHo-TAZRow.jpg" onclick="zoom(this)" alt="">
+				<img class="thumbnail" src="imgs/_Plyeh8UHtU.jpg" onclick="zoom(this)">
+				<img class="thumbnail" src="imgs/rosie-riveter.jpg" onclick="zoom(this)">
+				<img class="thumbnail" src="imgs/Screenshot.png" onclick="zoom(this)">
+				<img class="thumbnail" src="imgs/x4290d20150211002512.jpg" onclick="zoom(this)">
 			</div>
 		</div>
 	</body>
